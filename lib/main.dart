@@ -118,6 +118,10 @@ class _CalculatorScreenState extends State<CalculatorScreen> {
                     onPressed: () => _onPressed('/'),
                     child: const Text('/'),
                   ),
+                  StyledButton(
+                    onPressed: () => _onPressed('%'), 
+                    child: const Text('%'),
+                  )
                 ],
               ),
               Row(
